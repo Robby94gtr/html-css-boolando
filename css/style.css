@@ -34,6 +34,10 @@ footer{
     padding: 22px;
 }
 
+.icons{
+    padding: 22px;
+}
+
 /* utilty */
 
 .h-70px{
@@ -48,6 +52,9 @@ footer{
     text-align: center;
 }
 
+.logo-sm{
+    width: 140px;
+}
 
 /* content */
 
@@ -58,4 +65,8 @@ header ul{
 header ul li{
     display: inline-block;
     margin: 0 4px;
+}
+
+.logo-margin{
+    margin-top: -6px;
 }
