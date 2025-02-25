@@ -8,6 +8,15 @@
 
 header{
     background-color: #FF6901;
+    color: white;
+    padding: 22px 0px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+
+main{
+    padding-top: 134px;
 }
 
 footer{
@@ -17,7 +26,7 @@ footer{
 /* layout */
 
 .side-col{
-    width: 40%;
+    width: 102%;
 }
 
 .main-col{
@@ -30,23 +39,14 @@ footer{
     margin: 0px auto;
 }
 
-.content{
-    padding: 22px;
-}
-
-.icons{
-    padding: 22px;
+.card-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* utilty */
-
-.h-70px{
-    height: 70px;
-}
-
-.color-white{
-    color: white;
-}
 
 .text-align-cent{
     text-align: center;
@@ -54,6 +54,34 @@ footer{
 
 .logo-sm{
     width: 140px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-silver{
+    background-color: silver;
+}
+
+.border-black{
+    border: 1px solid black;
+}
+
+.h-800{
+    height: 800px;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.col-33{
+    width: 33%;
+}
+
+.justify-content-between{
+    justify-content: space-between;
 }
 
 /* content */
