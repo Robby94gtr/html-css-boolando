@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+header{
+    background-color: #FF6901;
+}
+
+footer{
+    background-color: black;
+}
+
+/* layout */
+
+.side-col{
+    width: 40%;
+}
+
+.main-col{
+    width: 20%;
+}
+
+.container{
+    max-width: 1920px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.content{
+    padding: 22px;
+}
+
+/* utilty */
+
+.h-70px{
+    height: 70px;
+}
+
+.color-white{
+    color: white;
+}
+
+.text-align-cent{
+    text-align: center;
+}
+
+
+/* content */
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 4px;
+}
